@@ -35,6 +35,7 @@ namespace ApiCalcula.Controllers
             return new { urlApi1 = "https://github.com/fernandowpina/ApiTaxa.git", urlApi2 = "https://github.com/fernandowpina/ApiCalcula.git" };
         }
 
+
         private async Task PegarTaxa()
         {
             using (HttpClient cliente = new HttpClient())
